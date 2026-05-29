@@ -35,8 +35,13 @@ This means that the root user will only have access to one IPv4 and one IPv6 con
 chmod 755 /bin/check
 chmod 755 /bin/irckiler
 
-# run the scripts in root
-check
+# run the scripts in root for test #
+
+check.sh
+
+# Do not forget to also add to the cron:
+
+*/3 * * * * cd /bin; ./check >/dev/null 2>&1
 
 ```
 ---
