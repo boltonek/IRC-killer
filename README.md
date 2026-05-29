@@ -17,7 +17,7 @@ IRC Killer v2 - Script for terminating IRC processes
 
 Upload the script to a folder /bin
 
-check and irckiler
+check.sh and irckiler.sh
 
 mkdir /usr/src/ircKiller
 
